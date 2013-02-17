@@ -1,0 +1,347 @@
+# Paradigm
+################################################################################
+# Order by sequence of execution from here on.
+
+## First, exlude everything in the git root directory.
+
+/*
+/**/*
+
+## Then, include dot files and dot directories.
+
+!/.*
+!/.*/
+!/.*/*
+!/.**/*
+
+# General
+################################################################################
+# Order by descriptive name, not path from here on.
+
+## Binaries
+
+*.bin
+*.blob
+
+## Caches
+
+/**/*.cache/
+*.cache*
+*-cache/
+*/cachedir/
+*/*.cache
+*/cache/
+/.cache/
+/.ccache/
+/.*/**/resume/
+*cache/
+
+# Compilings
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+
+## Databases
+*.sql
+*.sqlite
+
+## Logs
+*.log
+.local/share/Steam/logs/
+*.journal
+
+## XSession error logs
+.xsession-errors*
+
+## OS generated files
+
+### Mac OS
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+### Windows
+
+Desktop.ini
+Icon?
+ehthumbs.db
+Thumbs.db
+
+### KDE
+.directory
+
+## PIDs
+
+.steampid
+*.pid
+
+## Packages
+## It's better to unpack these files and commit the raw source because
+## git has its own built in compression methods.
+
+*.7z
+*.bzip
+*.deb
+*.dmg
+*.egg
+*.gem
+*.gz
+*.iso
+*.jar
+*.lzma
+*.rar
+*.rpm
+*.tar
+*.tar.gz
+*.xpi
+*.xz
+*.zip
+
+## Status
+
+*_state
+state.ini
+
+## Temporary Files
+
+/.pulse-cookie
+/.esd_auth
+/.ICEauthority
+/.config/transmission/torrents/
+/.config/transmission/dht.dat
+/.config/transmission/stats.json
+/.local/share/telepathy/mission-control/*.avatar
+/.local/share/tracker/data/*.journal
+/.local/share/tracker/data/*.isrunning
+/.local/share/webkit/icondatabase/WebpageIcons.db
+/.local/share/recently-used.xbel
+/.config/Empathy/geometry.ini
+/.config/evince/print-settings
+/.config/evolution/sources/
+/.config/enchant/*.dic
+/.config/enchant/*.exc
+
+### Subversion
+
+/.subversion/auth/
+
+## ESD
+
+/.esd_auth
+
+## DBus
+/.dbus/session-bus/
+
+## GEdit
+
+*~
+
+#### Nautilus
+
+/.thumbnails/
+
+#### PyLint
+
+/.pylint.d/*.stats
+
+## Shotwell
+## I think it's easy enough to recreate shotwell's database from scratch.
+## Comment out the following line if you use tags or so.
+/.shotwell/data
+/.shotwell/thumbs
+
+## Temps
+
+/temp
+/temp/*
+/temp/**/*
+/Temp
+/Temp/*
+/Temp/**/*
+/TEMP
+/TEMP/*
+/TEMP/**/*
+/tmp
+/tmp/*
+/tmp/**/*
+/Tmp
+/Tmp/*
+/Tmp/**/*
+/TMP
+/TMP/*
+/TMP/**/*
+*.temp
+*.TEMP
+*.tmp
+*.TMP
+
+## Possibly Containing Sensitive Information
+################################################################################
+## Order by application name from here on.
+
+### BASH
+/.bash_history
+
+### Firefox
+
+/.mozilla/firefox/*.default/
+
+### GNOME Keyring and others
+
+/.local/share/keyrings/login.keyring
+/.local/share/keyrings/user.keystore
+*.keyring
+*.keystore
+/.pki/
+
+### Empathy
+
+/.local/share/folks/relationships.ini
+/.config/Empathy/contact-groups.xml
+
+### Evolution
+
+/.local/share/evolution/addressbook/
+/.local/share/evolution/addressbook/system/
+
+#### Eclipse
+
+.eclipse
+
+## Mozilla products
+## They should sync themselves.
+
+.mozilla/
+.mozilla/firefox/profiles.ini
+
+### MySQL
+
+/.mysql_history
+
+## Spice
+
+.spice-vdagent/log
+
+## SSH
+## Configuration, but not private keys.
+/.ssh/*
+
+### VLC
+
+/.local/share/vlc/ml.xspf
+/.config/vlc/vlc-qt-interface.conf
+
+## No Manual Changes Here
+################################################################################
+## Order by application name from here on.
+
+### autostart
+
+/.local/share/applications/*.desktop
+
+### Application Icons
+
+/.local/share/icons/hicolor/
+
+### Cabal
+
+/.cabal/
+
+### GEGL
+
+/.local/share/gegl-*/plug-ins/
+
+### GNOME Shell
+
+/.local/share/gnome-shell/extensions/
+
+### Haskell Compiler
+
+/.ghc/
+
+### iBus
+
+/.local/share/.ibus/hunspell-tables/typing-booster\:*
+
+### Macromedia Flash
+
+/.macromedia/
+
+### Qt
+
+/.config/Trolltech.conf
+
+### Steam
+
+/.steam/
+/.steampath
+/.local/share/Steam/
+
+### Subversion
+
+/.subversion/config
+/.subversion/README.txt
+/.subversion/config_backup
+/.subversion/servers
+
+## SSH
+
+/.ssh/*
+
+## Uninteresting to Others
+################################################################################
+## Order by application name from here on.
+
+/.workspace/
+/.gimp-2.8/
+/.ssh/
+/.mozilla/firefox/Crash\ Reports
+/.pulse/
+/.mozilla/extensions/
+/.gnupg/
+/.icedtea/security/
+/.java/.userPrefs/
+/.local/share/shotwell/data/photo.db
+
+## EDID Monitor Information
+
+/.local/share/icc/
+
+### Empathy
+
+/.local/share/telepathy-logger/favourite-contacts.txt
+/.local/share/telepathy/mission-control/accounts-goa.cfg
+/.local/share/telepathy/mission-control/accounts.cfg
+
+### GNOME Shell Application State
+
+/.local/share/gnome-shell/application_state
+
+## GNOME recently used
+
+/.local/share/recently-used.xbel
+
+## GVFS
+
+/.local/share/gvfs-metadata/
+
+## Transmission
+
+/.config/transmission/resume/
+/.config/transmission/torrents/
+
+## VLC
+
+/.local/share/vlc/ml.xspf
+
+## Webkit
+
+*.localstorage
+/.local/share/webkit/icondatabase/WebpageIcons.db
+
