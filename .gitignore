@@ -18,6 +18,12 @@
 ################################################################################
 # Order by descriptive name, not path from here on.
 
+## Backups
+
+*.backup
+*.bak
+*.bck
+
 ## Binaries
 
 *.bin
