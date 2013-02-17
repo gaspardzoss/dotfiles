@@ -1,0 +1,13 @@
+; empathy GtkAccelMap rc-file         -*- scheme -*-
+; this file is an automated accelerator map dump
+;
+; (gtk_accel_path "<GAction>/win.room_join_new" "<Primary>j")
+; (gtk_accel_path "<GAction>/win.chat_quit" "<Primary>q")
+; (gtk_accel_path "<GAction>/win.chat_new_message" "<Primary>n")
+; (gtk_accel_path "<GAction>/win.chat_new_call" "<Primary>m")
+; (gtk_accel_path "<GAction>/win.room_join_favorites" "F5")
+; (gtk_accel_path "<GAction>/win.show-offline" "<Primary>h")
+; (gtk_accel_path "<GAction>/win.chat_search_contacts" "<Shift>f")
+; (gtk_accel_path "<GAction>/win.view_history" "F3")
+; (gtk_accel_path "<GAction>/win.edit_accounts" "F4")
+; (gtk_accel_path "<GAction>/win.help_contents" "F1")
