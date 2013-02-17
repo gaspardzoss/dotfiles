@@ -109,13 +109,28 @@ Thumbs.db
 state.ini
 
 ## Temporary Files
+################################################################################
+
+### Enlightened Sound Daemon
+
+/.esd_auth
+
+### iBus
+
+/.config/ibus/bus/
+
+### Pulse Audio
 
 /.pulse-cookie
-/.esd_auth
+
 /.ICEauthority
+
+### Transmission
+
 /.config/transmission/torrents/
 /.config/transmission/dht.dat
-/.config/transmission/stats.json
+.config/transmission/blocklists/
+
 /.local/share/telepathy/mission-control/*.avatar
 /.local/share/tracker/data/*.journal
 /.local/share/tracker/data/*.isrunning
@@ -156,6 +171,10 @@ state.ini
 /.shotwell/data
 /.shotwell/thumbs
 
+### TexStudio
+
+/.config/texstudio/wordCount.usage
+
 ## Temps
 
 /temp
@@ -181,7 +200,7 @@ state.ini
 *.tmp
 *.TMP
 
-## Possibly Containing Sensitive Information
+## Possibly Containing Sensitive or Personal Information
 ################################################################################
 ## Order by application name from here on.
 
@@ -229,8 +248,12 @@ state.ini
 .spice-vdagent/log
 
 ## SSH
-## Configuration, but not private keys.
+
 /.ssh/*
+
+## Transmission
+
+/.config/transmission/stats.json
 
 ### VLC
 
@@ -345,3 +368,14 @@ state.ini
 *.localstorage
 /.local/share/webkit/icondatabase/WebpageIcons.db
 
+## Inkscape
+
+.config/inkscape/preferences.xml
+
+### TecStudio
+
+/.config/texstudio/*.cwl
+
+### SEAlert
+
+/.config/sealert.conf
