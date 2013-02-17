@@ -24,10 +24,11 @@
 *.bak
 *.bck
 
-## Binaries
+## Binary Files
 
 *.bin
 *.blob
+/.config/dconf/user
 
 ## Caches
 
@@ -43,6 +44,7 @@
 *cache/
 
 # Compilings
+
 *.class
 *.dll
 *.exe
@@ -51,15 +53,18 @@
 *.pyc
 
 ## Databases
+
 *.sql
 *.sqlite
 
 ## Logs
+
 *.log
 .local/share/Steam/logs/
 *.journal
 
 ## XSession error logs
+
 .xsession-errors*
 
 ## OS generated files
@@ -120,6 +125,16 @@ state.ini
 ### Enlightened Sound Daemon
 
 /.esd_auth
+
+### Google Chrome
+
+/.config/google-chrome/Certificate\ Revocation\ Lists
+/.config/google-chrome/Dictionaries/
+/.config/google-chrome/Local\ State
+/.config/google-chrome/Service\ State
+/.config/google-chrome/SingletonCookie
+/.config/google-chrome/SingletonLock
+/.config/google-chrome/SingletonSocket
 
 ### iBus
 
@@ -211,6 +226,7 @@ state.ini
 ## Order by application name from here on.
 
 ### BASH
+
 /.bash_history
 
 ### Firefox
@@ -224,6 +240,21 @@ state.ini
 *.keyring
 *.keystore
 /.pki/
+
+### GNOME Online Accounts
+
+/.config/goa-1.0/accounts.conf
+
+### Google Chrome
+
+/.config/google-chrome/Default
+/.config/google-chrome/Safe Browsing Bloom
+/.config/google-chrome/Safe Browsing Bloom Prefix Set
+/.config/google-chrome/Safe Browsing Cookies
+/.config/google-chrome/Safe Browsing Cookies-journal
+/.config/google-chrome/Safe Browsing Csd Whitelist
+/.config/google-chrome/Safe Browsing Download
+/.config/google-chrome/Safe Browsing Download Whitelist
 
 ### Empathy
 
@@ -260,6 +291,7 @@ state.ini
 ## Transmission
 
 /.config/transmission/stats.json
+/.config/transmission/settings.json
 
 ### VLC
 
@@ -374,9 +406,13 @@ state.ini
 *.localstorage
 /.local/share/webkit/icondatabase/WebpageIcons.db
 
+### Evince
+
+/.config/evince/print-settings
+
 ## Inkscape
 
-.config/inkscape/preferences.xml
+/.config/inkscape/preferences.xml
 
 ### TecStudio
 
@@ -385,3 +421,25 @@ state.ini
 ### SEAlert
 
 /.config/sealert.conf
+
+### External Monitors
+
+/.config/monitors.xml
+
+### LibreOffice
+
+/.config/libreoffice/
+
+### GNOME Wallpaper
+
+/.config/gnome-control-center/backgrounds/last-edited.xml
+
+### GTK File Chooser
+
+.config/gtk-2.0/gtkfilechooser.ini
+
+### Google Chrome
+
+/.config/google-chrome/Consent\ To\ Send\ Stats
+/.config/google-chrome/First Run
+/.config/google-chrome/Performance\ Monitor\ Databases/
