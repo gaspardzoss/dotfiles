@@ -1,0 +1,42 @@
+[alias]
+	br = branch
+	ba = branch
+	ci = commit
+	cm = commit
+	di = diff
+	df = diff
+	lo = log -p
+	lg = log -p
+	re = rebase
+	rb = rebase
+	st = status
+	sa = status
+
+	pl = pull
+	pu = pull  
+	uppl = pull
+	pllu = pull
+	plul = pull
+	ppull = pull
+	upll = pull
+	pll = pull
+
+	ps = push
+	psh = push
+	upsh = push
+	psuh = push
+	psh = push
+[branch]
+	autosetupmerge = true
+[user]
+	name = Bengt Lüers
+	email = bengt.lueers@gmail.com
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[push]
+	default = simple
+[merge]
+	tool = meld
+[core]
+	editor = nano
