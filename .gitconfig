@@ -1,23 +1,38 @@
 [alias]
 	ad = add
 
+    bi = bisect
+    bs = bisect
+
 	br = branch
 	ba = branch
+
+    ch = checkout
+    ce = checkout
+
+    cl = clone
+    cn = clone # conflict with commit, so next letter
 
 	co = commit
 	cm = commit
 
 	di = diff
 	df = diff
+	
+	fe = fetch
+	ft = fetch
+	
+	gr = grep
+	ge = grep
+
+    in = init
+    ii = init
 
 	lo = log -p
 	lg = log -p
-
-	re = rebase
-	rb = rebase
-
-	st = status
-	sa = status
+	
+	me = merge
+	mr = merge
 
 	pl = pull
 	pu = pull  
@@ -34,8 +49,23 @@
 	psuh = push
 	psh = push
 
+	reb = rebase
+	rb = rebase
+
+    res = reset
+    rs = reset
+    
+    sh = show
+    so = show
+    
+	st = status
+	sa = status
+
 	su = submodule
-        sb = submodule
+    sb = submodule
+    
+    ta = tag
+    tg = tag
 [branch]
 	autosetupmerge = true
 [user]
