@@ -1,15 +1,21 @@
 [alias]
 	ad = add
+
 	br = branch
 	ba = branch
+
 	co = commit
 	cm = commit
+
 	di = diff
 	df = diff
+
 	lo = log -p
 	lg = log -p
+
 	re = rebase
 	rb = rebase
+
 	st = status
 	sa = status
 
@@ -27,6 +33,9 @@
 	upsh = push
 	psuh = push
 	psh = push
+
+	su = submodule
+        sb = submodule
 [branch]
 	autosetupmerge = true
 [user]
