@@ -7,4 +7,5 @@ fi
 
 # User specific aliases and functions
 alias g="LANG=en_US git"
+alias gi="LANG=en_US git"
 alias git="LANG=en_US git"
