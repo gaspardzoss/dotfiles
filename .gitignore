@@ -84,6 +84,10 @@ Icon?
 ehthumbs.db
 Thumbs.db
 
+### GNOME
+
+/.local/share/Trash/
+
 ### KDE
 .directory
 
@@ -228,6 +232,10 @@ state.ini
 ### BASH
 
 /.bash_history
+
+### Python
+
+/.pythonhist
 
 ### Firefox
 
