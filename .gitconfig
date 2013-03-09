@@ -66,6 +66,11 @@
     
     ta = tag
     tg = tag
+
+    # small programs
+
+    peek = !git fetch && git status
+
 [branch]
 	autosetupmerge = true
 [user]
