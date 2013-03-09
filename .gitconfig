@@ -67,6 +67,15 @@
     ta = tag
     tg = tag
 
+    # flag aliases
+
+    diffw = diff --color-words
+    diffs = diff --staged
+    diffsw = diff --staged --color-words
+    showw = show --color-words
+    shown = show --name-only
+    rmc = rm --cached
+
     # small programs
 
     peek = !git fetch && git status
@@ -98,6 +107,6 @@
     frag = magenta dim
     old = red dim
     new = green dim
-    whitespace = white reverse
+    whitespace = magenta dim reverse
 [core]
 	editor = nano
