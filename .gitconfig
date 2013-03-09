@@ -83,5 +83,7 @@
 	default = simple
 [merge]
 	tool = meld
+[color]
+    ui = auto
 [core]
 	editor = nano
