@@ -84,6 +84,20 @@
 [merge]
 	tool = meld
 [color]
-    ui = auto
+    ui = true
+[color "status"]
+    added = green dim
+    changed = red dim
+    untracked = blue dim
+[color "branch"]
+    current = green black
+    local = green dim
+    remote = yellow
+[color "diff"]
+    meta = yellow
+    frag = magenta dim
+    old = red dim
+    new = green dim
+    whitespace = white reverse
 [core]
 	editor = nano
